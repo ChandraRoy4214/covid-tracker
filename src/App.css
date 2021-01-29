@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f2f8;
+}
+.app {
+  justify-content: space-around;
+  /* max-height: 100vh; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.heading {
+  font-size: 2rem;
+  color: red;
+}
+.appDropdown {
+  width: 11rem;
+}
+.infoBox {
+  border: 1px solid #a2aaa9;
+  width: 10rem;
+  height: 8rem;
+  margin: 15px;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 4px 5px 15px white;
+}
+
+.appInfoBox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.app-right {
+  background-color: white;
+  padding: 10px;
+  width: auto;
+}
+
+.app-left {
+  /* background-color: yellow; */
+  flex: 1 0;
+}
+.app {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 890px) {
+  .app {
+    flex-direction: column;
+  }
+  .graph {
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1190px) {
+  .infoBox {
+    width: 224px;
+    box-shadow: 5px 5px 15px honeydew;
+    border-radius: 12%;
+    background-color: rgb(235, 225, 241);
+  }
+}
+
+.ibTitle {
+  padding-left: 9px;
+  color: chocolate;
+  margin-bottom: 10px;
+}
+.ibCases {
+  padding-left: 9px;
+  color: rgb(18, 157, 238);
+  margin-bottom: 10px;
+}
+.ibTotal {
+  padding-left: 9px;
+  color: rgb(174, 0, 255);
+}
